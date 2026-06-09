@@ -10,15 +10,25 @@ This is so the git history can also add to the value.
 ## Plan
 
 v0.0  hosts-file lookup
+
 v0.1  toy UDP lookup service
+
 v0.2  DNS packet decode + NOTIMP response
+
 v0.3  DNS A answers from hosts file
+
 v0.4  authoritative zone with A/NS/SOA
+
 v0.5  CNAME/MX/TXT/AAAA
+
 v0.6  delegation and referrals
+
 v0.7  forwarding cache
+
 v0.8  recursive resolver
+
 v0.9  zone file parser
+
 v1.0  BIND-like config + UDP/TCP authoritative server
 
 The releases will be tagged with the above versioning.
