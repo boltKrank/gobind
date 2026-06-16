@@ -9,7 +9,9 @@ This is so the git history can also add to the value.
 
 ## Plan
 
-v0.0  hosts-file lookup
+Release v0.0  hosts-file lookup
+    
+    Run testscripts/test0.sh to see it in action.
 
 v0.1  toy UDP lookup service
 

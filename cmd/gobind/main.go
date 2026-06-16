@@ -16,11 +16,15 @@ type CLI struct {
 
 type HostsCmd struct {
 	Lookup HostsLookupCmd `cmd:"" help:"Look up a name in a hosts file."`
+	Serve  HostsServeCmd  `cmd:"" help:"Serve a toy UDP hosts protocol."`
 }
 
 type HostsLookupCmd struct {
 	HostsPath string `name:"hosts" default:"testdata/hosts.txt" help:"Path to hosts file."`
 	Name      string `arg:"" help:"Name to look up."`
+}
+
+type HostsServeCmd struct {
 }
 
 func (cmd *HostsLookupCmd) Run() error {
