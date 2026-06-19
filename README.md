@@ -10,8 +10,8 @@ This is so the git history can also add to the value.
 ## Plan
 
 Release v0.0  hosts-file lookup
-    
-    Run testscripts/test0.sh to see it in action.
+
+Run testscripts/test0.sh to see it in action.
 
 v0.1  toy UDP lookup service
 
@@ -34,6 +34,3 @@ v0.9  zone file parser
 v1.0  BIND-like config + UDP/TCP authoritative server
 
 The releases will be tagged with the above versioning.
-
-
-

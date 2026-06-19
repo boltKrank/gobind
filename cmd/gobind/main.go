@@ -60,7 +60,7 @@ func main() {
 	ctx := kong.Parse(
 		&cli,
 		kong.Name("gobind"),
-		kong.Description("A tiny history-shaped DNS learning project in Go."),
+		kong.Description("Following the history of BIND DNS in Go, one "),
 		kong.UsageOnError(),
 	)
 

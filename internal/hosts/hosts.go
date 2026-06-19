@@ -79,8 +79,10 @@ func (h *HostsFile) LookupA(name string) ([]net.IP, bool) {
 }
 
 func NormalizeName(name string) string {
-	name = strings.TrimSpace(name)
-	name = strings.ToLower(name)
+	name = strings.TrimSpace(strings.ToLower(name))
 	name = strings.TrimSuffix(name, ".")
+	if name == "" {
+		return "."
+	}
 	return name + "."
 }
