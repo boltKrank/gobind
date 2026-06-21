@@ -34,3 +34,7 @@ v0.9  zone file parser
 v1.0  BIND-like config + UDP/TCP authoritative server
 
 The releases will be tagged with the above versioning.
+
+Reference:
+
+[https://mislove.org/teaching/cs4700/spring11/handouts/project1-primer.pdf]
